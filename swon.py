@@ -3,7 +3,7 @@ import time
 def locate(n,c):
      yy=n//80
      xx=n-(yy*80)
-     print(f"\x1b[{yy};{xx}d\x1b[{c};30m ")    
+     print(f"\x1b[{yy};{xx}f\x1b[{c};30m ")    
 
 
 print("\x1b[40;30m\x1bc")
